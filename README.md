@@ -5,14 +5,14 @@
 </p>
 
 
-   `git --version`
+   - `git --version`
 
 ### comandos administrativos do GIT
 
-  `git status`
-  `git add index.html or git add.` 
-  `git commit -m "Mensagem do desenvolvedor" ex: "Updat file README"`
-  `git push -u origin master or main`
+  - `git status`
+  - `git add index.html or git add.` 
+  - `git commit -m "Mensagem do desenvolvedor" ex: "Updat file README"`
+  - `git push -u origin master or main`
 
 
 ### COMO PREECHER FORMULARIO?
@@ -20,4 +20,4 @@
 ## CAPITULO 2 - criando repositorio no git
 ###
 
-`git status`
+ - `git status`

@@ -32,6 +32,9 @@ Ralize a busca no navegador para a realização [Instalar GIT](ttps://git-scm.co
 <p>Acesse GitHub, crie uma conta (se ainda não tiver) e crie um novo repositório,</p> // Na hora de criar o repertorio e de sua escolha se ele sera Publico ou Privado
 
 ### Codigo para gerar a chave
+```
+ssh-keygem
+```
 
  ### Codigo adicionar arquivos ao repositório local
  ```

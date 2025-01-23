@@ -88,3 +88,11 @@ Ralize a busca no navegador para a realização [Instalar GIT](ttps://git-scm.co
 ```
  git commit -m "Mensagem do desenvolvedor" ex: "Updat file README"
 ```
+### Codigo para adcionar informações.
+```
+ git add.
+```
+### Codigo para enviar informações
+```
+ git push -u origin master
+```

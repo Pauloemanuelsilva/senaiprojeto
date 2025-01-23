@@ -38,19 +38,25 @@ Ralize a busca no navegador para a realização [Instalar GIT](ttps://git-scm.co
    ```
 <p>Depois disso e necessario entra no GITHUB para conecta a chave ao repositorio atraves das ilustrações abaixo</p>
 
+ ### Entre em usuario e click em configurações
+
 <p align="center"> 
    <img src="docs/imagen/tela1.png" width= "400">
-   </a>
 </p>
+
+### Depois disso click ssh gps
+
 <p align="center"> 
    <img src="docs/imagen/tela2.png" width= "400">
-   </a>
+   
+### Agora use a chave
 
 </p>
 <p align="center"> 
    <img src="docs/imagen/tela3.png" width= "400">
    </a>
 </p>
+<p>Dê um nome para o repositório (pode ser público ou privado, conforme preferir).</p>
 
 ### CODIGO para verificar se as informações estão corretas
   ```
@@ -72,7 +78,7 @@ Ralize a busca no navegador para a realização [Instalar GIT](ttps://git-scm.co
    </a>
 </p>
 
- <p>Dê um nome para o repositório (pode ser público ou privado, conforme preferir).</p>
+ <p>Dê um nome para o repositório.</p>
 
  <p align="center"> 
    <img src="docs/imagen/repositorio.png" width= "400">

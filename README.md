@@ -5,10 +5,21 @@
 <p align="justify">
 Ralize a busca no navegador para a realização [Instalar GIT](ttps://git-scm.com/book/pt-pt/v2/Come%C3%A7ando-Instalar-o-Git)</p>
 <p align="center"> <a href ="https://git-scm.com/book/pt-pt/v2/Come%C3%A7ando-Instalar-o-Git" target ="black">
-   <img src="docs/image.png![alt text](image-1.png)" width= "400">
+   <img src="docs/imagen/Captura de tela.png" width= "400">
    </a>
 </p>
-   - `git --version`
+   `git --version`
+
+   ### Comandos para navegar áte àrea o seu PROJETO.
+   ```
+   cd documents // Caso o arquivo esteja da pasta esteja oculto, pasta digita o mesmo codigo adcionado espaço e um ponto final ex: "cd documents ."
+   cd workspace// o mesmo nesse caso ex: "cd worksspace"
+   cd projeto // O nome do Projeto e de sua escolha
+   
+   ```
+
+### CRIE UMA CONTA no GITHUB.
+<p>Depois de criar uma conta vc precisa conecta ela ao projeto seguindo os comandos abaixo atraveis do terminal do seu computador</p>
 
 ### Comandos para configura o git.
     ```
@@ -21,15 +32,9 @@ Ralize a busca no navegador para a realização [Instalar GIT](ttps://git-scm.co
   git config list
   ```
 
-### Comandos para navegar áte àrea o seu PROJETO.
-   ```
-   cd documents // Caso o arquivo esteja da pasta esteja oculto, pasta digita o mesmo codigo adcionado espaço e um ponto final ex: "cd documents ."
-   cd workspace// o mesmo nesse caso ex: "cd worksspace"
-   cd projeto // O nome do Projeto e de sua escolha
-   ```
-
-## CAPITULO 2 - criando repositorio no git
-<p>Acesse GitHub, crie uma conta (se ainda não tiver) e crie um novo repositório,</p> // Na hora de criar o repertorio e de sua escolha se ele sera Publico ou Privado
+## Capitulo 2 - criando repositorio no git
+<p>Acesse GitHub, e crie um novo repositório,</p> // Clique no botão New para criar um novo repositório.
+Dê um nome para o repositório (pode ser público ou privado, conforme preferir).
 
 ### Codigo para gerar a chave
 ```

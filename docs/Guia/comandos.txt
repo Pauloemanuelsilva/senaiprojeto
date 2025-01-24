@@ -1,0 +1,50 @@
+comandos
+
+criar pastas
+cd documents
+mkdir workspace
+cd workspace
+ 
+entra no git
+clonar projeto
+git clone projeto
+git clone link do projeto
+
+se conectar no git
+cd ..
+cd../.. voltar duas vezes
+git config --global user.name "seu nome"
+git confi --global user.email seu email do git não use aspas no email
+
+
+criar chave
+ssh-keygen
+crie uma senha
+repita a senha
+cd .ssh pasta oculta
+ls
+cat id
+copia o id
+volte ao git
+va ate as configurações
+va para ssh para autentica a chave coloque um nome de sua preferencia
+cole a chave
+e crie a ssh key
+salve a chave
+
+volte ao terminal
+navegue ate a pasta do projeto
+de ls
+cd .git
+ls
+cat config
+cd .. saia da pasta
+code . va ate o vscode
+
+va ate as crendiciais clicando no botão do windons e delete as do GitHub
+
+volte o vs code
+abra um novo terminal
+e intale o git hub compilot e o pull request
+envie suas informações para git
+e se cadastre na sua conta do github

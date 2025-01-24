@@ -1,15 +1,34 @@
 # Manual de utilização do sistema/site.
+
+ ### Antes de iniciar o manual, é necessário verificar se o GitHub está instalado no seu computador. Para isso, use o comando abaixo no terminal. 
+
+ ```
+ git --version
+ ```
+ <p>Se você ainda não tem o Git instalado, siga os passos abaixo:</p>
+
 ## CAPITULO 1 - configuração do git no computador.
 ### Instalação do GIT.
- ### Comandos para navegar áte àrea o seu PROJETO.
+
 <p align="justify">
-Ralize a busca no navegador para a realização [Instalar GIT](ttps://git-scm.com/book/pt-pt/v2/Come%C3%A7ando-Instalar-o-Git)</p>
+Ralize a busca no navegador para a realização [Instalar GIT] (ttps://git-scm.com/book/pt-pt/v2/   Come%C3%A7ando-Instalar-o-Git)</p>
+
 <p align="center"> <a href ="https://git-scm.com/book/pt-pt/v2/Come%C3%A7ando-Instalar-o-Git" target ="black">
    <img src="docs/imagen/Captura de tela.png" width= "400">
    </a>
 </p>
-   `git --version` ### Comandos para navegar áte àrea o seu PROJETO.
 
+### CRIE UMA CONTA no GITHUB.
+
+<p>Após instalar o Git, acesse o site do GitHub e crie uma conta. Lá, você poderá escolher o nome de usuário e o e-mail que serão associados à sua conta.</p>
+
+<p>Após criar a conta, você precisará conectá-la ao projeto utilizando os comandos abaixo, através do terminal do seu computador</p>
+
+### Comandos para conetar o seu computador ao GITHUB.
+    ```
+    git config --global user.name "Digite seu nome" 
+    git config --global user.email "Digite seu email"
+    ```
    ### Comandos para navegar áte àrea o seu PROJETO.
    ```
    cd documents // Caso o arquivo esteja da pasta esteja oculto, pasta digita o mesmo codigo adcionado espaço e um ponto final ex: "cd documents ."
@@ -19,22 +38,15 @@ Ralize a busca no navegador para a realização [Instalar GIT](ttps://git-scm.co
    
    ```
 
-### CRIE UMA CONTA no GITHUB.
-<p>Depois de criar uma conta vc precisa conecta ela ao projeto seguindo os comandos abaixo atraveis do terminal do seu computador</p>
 
-### Comandos para configura o git.
-    ```
-    git config --global user.name "Digite seu nome"
-    git config --global user.email "Digite seu email"
-    ```
  <p>logo depois disso e nescessaio cria uma chave atraves do comando abaixo, so que antes disso e necessario navegar ate o ssh</p>
 
 ### Codigo para gerar a chave
    ```
-   cd ssh
+   cd .ssh
    ssh-keygem
    ls
-   cat
+   cat id
    ```
 <p>Depois disso e necessario entra no GITHUB para conecta a chave ao repositorio atraves das ilustrações abaixo</p>
 

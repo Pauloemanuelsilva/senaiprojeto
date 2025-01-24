@@ -1,14 +1,14 @@
 # Manual de utilização do sistema/site.
 ## CAPITULO 1 - configuração do git no computador.
 ### Instalação do GIT.
-
+ ### Comandos para navegar áte àrea o seu PROJETO.
 <p align="justify">
 Ralize a busca no navegador para a realização [Instalar GIT](ttps://git-scm.com/book/pt-pt/v2/Come%C3%A7ando-Instalar-o-Git)</p>
 <p align="center"> <a href ="https://git-scm.com/book/pt-pt/v2/Come%C3%A7ando-Instalar-o-Git" target ="black">
    <img src="docs/imagen/Captura de tela.png" width= "400">
    </a>
 </p>
-   `git --version`
+   `git --version` ### Comandos para navegar áte àrea o seu PROJETO.
 
    ### Comandos para navegar áte àrea o seu PROJETO.
    ```

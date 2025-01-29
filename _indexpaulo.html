@@ -1,169 +1,506 @@
 <!DOCTYPE html>
+<!--DOCTYPE html = "Este termo e utilizado para identificar o tipo deste arquivo que no caso e html" -->
+
 <html lang="pt-br">
+<!--HTML = "Define o início de todo o arquivo/documento HTML."-->
+
 <head>
+<!--Inicio da HEAD = "Como diz a tradução e a cabeça do projeto, E Contém metadados e configurações da página."-->
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta charset= define a codificação de caracteres da página como UTF-8, garantindo a exibição correta de caracteres especiais e acentos. -->
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--META = "Define metadados da página, como charset e viewport."-->
+
     <title>CineVibes.com.br</title>
+    <!--TITLE = "Se trata do titulo da pagina"-->
+
+     <!--TITLE = "Se trata do titulo da pagina"-->
+     <!--STYLESHEET = "Refere-se a um arquivo CSS que define o estilo visual da página."--> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
-      crossorigin="anonymous">
-    <link rel="stylesheet" href="stylespaulo.css">
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" type= "text/css" href="css/stylespaulo.css">
+
+    <!--INTEGRITY = "é usado para garantir a integridade do arquivo carregado, ou seja, verifica se o conteúdo do arquivo não foi alterado de maneira inesperada."--> 
+
+    <!--crossorigin = "controla como recursos de outros domínios são carregados em relação à política CORS. "--> 
+
+    <!--Link = "é usado para garantir a integridade do arquivo carregado, ou seja, verifica se o conteúdo do arquivo não foi alterado de maneira inesperada."--> 
+
+
 </head>
-<body>
+<!--Fim da Cabeça-->
+
+<!--Começo do corpo do Site-->
+<body>    
+    
+    <!--é usada em HTML para definir uma seção de navegação na página, como menus ou links de navegação. Quando combinada com a classe class, ela permite aplicar estilos específicos a essa seção.-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-        <a class="navbar-brand" href="#">CineVibes Midia</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
-            <span class="navbar-toggler-icon"></span>
+
+    <a class="navbar-brand" href="#">CineVibes Midia</a>
+
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+         <!--<button class = Cria um botão em HTML. O atributo class é usado para aplicar estilos ou funcionalidades específicas, associando o botão a uma classe definida no CSS ou no JavaScript.-->
+
+         <!--TYPE= Cria um botão em HTML. O atributo class é usado para aplicar estilos ou funcionalidades específicas, associando o botão a uma classe definida no CSS ou no JavaScript.-->
+
+         <!--DATA-TOGGLE= é usado em frameworks como o Bootstrap para ativar comportamentos específicos de interação, como abrir ou fechar elementos de forma dinâmica. -->
+
+         <!--DATA TARGET=  é usado em HTML, geralmente com frameworks como o Bootstrap, para especificar o elemento que será afetado por uma ação, como abrir, fechar ou alternar visibilidade..-->
+
+         <!--ARIA-CONTROLS=  indica o ID de um elemento que é controlado por outro, melhorando a acessibilidade para tecnologias assistivas.-->
+
+         <!--ARIA-EXPANDED= é usado para informar se um elemento controlado (como um menu ou painel) está expandido ou colapsado. -->
+
+         <!--ARIA Label= é usado para fornecer uma descrição acessível para um elemento, como um botão ou ícone, melhorando a experiência de usuários com deficiências visuais, que utilizam leitores de tela.-->
+
+
+        <span class="navbar-toggler-icon"></span>
+         <!--é usada para agrupar ou aplicar estilo a um trecho de texto ou conteúdo inline, sem alterar o fluxo do layout.-->
+
         </button>
+        <!--Fim das configurações do butão-->
+
         <div class="collapse navbar-collapse" id="navbarNav">
+        <!--A tag <div> é usada para agrupar conteúdo ou elementos em HTML. O atributo class permite associar a tag a uma classe CSS, aplicando estilos específicos a todo o conteúdo dentro da <div>.-->
+
             <ul class="navbar-nav">
+            <!--ul class= cria uma lista não ordenada com marcadores. O atributo class aplica estilos ou funcionalidades específicas à lista, com base na classe definida no CSS.-->
+
                 <li class="nav-item active">
+                <!--é usada para definir um item de lista em HTML. O atributo class permite aplicar estilos ou funcionalidades específicas ao item, de acordo com a classe definida no CSS.-->
+
                 <li class="nav-item">
+                 <!--definir um item de lista em HTML-->
+
                     <a class="nav-link" href="#Filmes">Filmes</a>
+                    <!--<a>= cria um link em HTML. O atributo-->
+                    <!--class="nav-link" aplica um estilo específico (geralmente para navegação) ao link-->
+                    <!--href="#Filmes" define o destino do link, que, neste caso, é um ponto específico na mesma página com o ID Filmes.-->
+                
                 </li>
+                <!--Fechar a listagem-->
+
                 <li class="nav-item">
+                    <!--Abrindo uma nova lista-->
+
                     <a class="nav-link" href="#Músicas">Músicas</a>
+                    <!--<a>= cria um link em HTML. O atributo-->
+                    <!--class="nav-link" aplica um estilo específico (geralmente para navegação) ao link-->
+                    <!--href="#Músicas" define o destino do link, que, neste caso, é um ponto específico na mesma página com o ID Música.-->
+
                 </li>
+                <!--Fechar a listagem-->
+
                 <li class="nav-item">
+                    <!--Abrindo uma nova lista-->
+
                     <a class="nav-link" href="#Jogos">Jogos</a>
+                    <!--<a>= cria um link em HTML. O atributo-->
+                    <!--class="nav-link" aplica um estilo específico (geralmente para navegação) ao link-->
+                    <!--href="#Jogos" define o destino do link, que, neste caso, é um ponto específico na mesma página com o ID Jogos.-->
+
+
                 </li>
+                <!--Fechar a listagem--->
+
                 <li class="nav-item">
+                    <!--Abrindo uma nova lista-->
+
                     <a class="nav-link" href="#Cadastro">Cadastro</a>
+                    <!--<a>= cria um link em HTML. O atributo-->
+                    <!--class="nav-link" aplica um estilo específico (geralmente para navegação) ao link-->
+                    <!--href="#Jogos" define o destino do link, que, neste caso, é um ponto específico na mesma página com o ID Jogos.-->
+
                 </li>
+                <!--Fechar a listagem-->
+
             </ul>
+            <!--Fechar o Ul-->
+
         </div>
+        <!--Fechando div-->
+
     </nav>
+    <!--Fechando a navegação-->
+
     <header>
+        <!--é usada para definir a seção de cabeçalho de uma página ou de uma parte específica da página. Normalmente, contém elementos como título, navegação ou logotipo.-->
+
         <div class="container-fluid">
+            <!--A classe container-fluid do Bootstrap cria um contêiner que ocupa toda a largura da tela, tornando o conteúdo expansivo e responsivo.-->
+
         <h1>CineVibes</h1>
+        <!--Titulo da pagina-->
+
         <p><strong>CineVibes</strong> é um portal completo dedicado aos apaixonados por <strong>Cinema, Música e Jogos</strong>. oferecendo uma experiência única e imersiva para todos que buscam estar por dentro do mundo do entretenimento. Com uma abordagem abrangente, o site oferece resenhas detalhadas, notícias atualizadas, curiosidades exclusivas e análises profundas, cobrindo os lançamentos mais aguardados e as produções que estão ganhando destaque nas telas.</p>
+        <!--Paragrafo da pagina-->
+
     </header>
+    <!--Fechar o cabeçalho-->
     
     <div class="container">
+        <!-- E o mesmo codigo usado antes para criar uma nova classe container-fluid do Bootstrap cria um contêiner que ocupa 100% da largura da tela, sendo responsivo e adaptável.-->
+
         <section class="intro">
+            <!--A tag <section class="intro"> define uma seção na página com a classe intro, que pode ser usada para aplicar estilos ou funcionalidades específicas a essa área.-->
+
             <h2>Detalhes da Página</h2>
+            <!--Segundo titulo da pagina-->
+
             <p>Aqui estão os últimos lançamentos do Homem-Aranha dos últimos anos.</p>
-        </section> 
+            <!--Paragrafo-->
+
+        </section>
+         <!--Fechando seção-->
         
         <section class="category">
+            <!--A tag `<section class="category">` cria uma seção na página, com a classe `category` para aplicar estilos ou funcionalidades específicas, geralmente para categorias de conteúdo.-->
+
             <div id="Filmes"></div>
+           <!--A tag <div id="Filmes"></div> cria um contêiner vazio com o ID Filmes, que pode ser usado para identificar e aplicar estilos ou funcionalidades específicas a essa seção na página.-->
+
             <h2>Filmes</h2>
+            <!--Terceiro titulo da pagina-->
+
             <div class="grid">
+                <!--div class="grid">` cria um contêiner com a classe `grid`, usada para organizar o conteúdo em um layout de grade (grid), facilitando o alinhamento e disposição dos elementos.-->
+
                 <div class="card">
+                    <!--Criando uma card/cartão que permite organizar as informações-->
+
                     <a href="https://www.youtube.com/watch?v=2x-2iYxgMFU">
+                        <!--A tag <a href=""> é usada para criar um link em HTML. O atributo href define o destino do link, ou seja, o endereço para onde o usuário será redirecionado ao clicar-->
+
                     <img src="https://br.web.img3.acsta.net/pictures/17/05/29/23/31/530814.jpg" alt="Homem-Aranha: De Volta ao Lar">
+                    <!--src: Define o endereço (URL) da imagem que será exibida.-->
+                    <!--alt: Fornece uma descrição alternativa da imagem, que é importante para acessibilidade e é exibida se a imagem não puder ser carregada.-->
+
                     </a>
+                    <!--Fechando o link-->
+
                     <h3>Homem-Aranha: De Volta ao Lar (2017)</h3>
+                    <!--Terceiro titulo da pagina-->
+
                     <p>Peter Parker tenta equilibrar sua vida escolar com a responsabilidade de ser o Homem-Aranha, enquanto enfrenta o crime em Nova York.</p>
+                    <!--Paragrafo-->
+
                 </div>
+                <!--Fechando a div-->
+
                 <div class="card">
+                    <!--Criando outro card/cartão que permite organizar as informações-->
+
                     <a href="https://www.youtube.com/watch?v=Nt9L1jCKGnE">
+                        <!--A tag `<a href="">` cria um link em HTML, e o atributo `href` define o destino para onde o usuário será redirecionado ao clicar.-->
+
                     <img src="https://br.web.img2.acsta.net/pictures/19/07/05/17/30/5167951.jpg" alt="Homem-Aranha: Longe de Casa">
+                    <!--src: Define o URL da imagem a ser exibida.-->
+                    <!--alt: Fornece uma descrição alternativa da imagem, útil para acessibilidade e exibida se a imagem não carregar-->
+
                     </a>
+                    <!--Fechado link-->
+
                     <h3>Homem-Aranha: Longe de Casa (2019)</h3>
+                    <!--Quarto Titulo-->
+
                     <p>Peter lida com a perda de Tony Stark e os desafios de ser um herói, enquanto enfrenta novos vilões e tenta equilibrar sua vida pessoal com a identidade de Homem-Aranha.</p>
+                    <!--Paragrafo-->
+
                 </div>
+                <!--Fechando a div-->
+
                 <div class="card">
+                    <!--Criando outro card/cartão que permite organizar as informações-->
+
                     <a href="https://www.youtube.com/watch?v=2x-2iYxgMFU">
+                        <!-- A tag <a href=" cria um link em HTML, e o atributo `href` define o destino para onde o usuário será redirecionado ao clicar".-->
+                         <!--Apartir daqui irei repetir as informaçoes presentes no cards/cartões-->
+
                     <img src="https://www.sonypictures.com.br/sites/brazil/files/2023-06/1400x2100.jpg" alt="Homem-Aranha no Aranhaverso">
+                     <!--src: Define o URL da imagem a ser exibida.-->
+                    <!--alt: Fornece uma descrição alternativa da imagem, útil para acessibilidade e exibida se a imagem não carregar-->
+
                     </a>
+                    <!--Fechando link-->
+
                     <h3>Homem-Aranha no Aranhaverso (2018)</h3>
+                    <!--Quinto paragrafo-->
+
                     <p>Uma aventura no multiverso, com diversas versões do Homem-Aranha enfrentando desafios e explorando suas identidades.</p>
+                    <!--Paragrafo-->
+
                 </div>
+                <!--Fechando grupo/div-->
+
                 <div class="card">
+                   <!--Criando outro card/cartão que permite organizar as informações-->
+
                     <a href="https://www.youtube.com/watch?v=_4is7I_ZxTg">
+                         <!-- A tag <a href=" cria um link em HTML, e o atributo `href` define o destino para onde o usuário será redirecionado ao clicar".-->
+                      
                     <img src="https://ingresso-a.akamaihd.net/prd/img/movie/homem-aranha-atraves-do-aranhaverso-parte-1/216f2cb7-3a64-4b7a-a338-709bcde71147.webp" alt="Homem-Aranha: Através do Aranhaverso">
+                    <!--src: Define o URL da imagem a ser exibida.-->
+                    <!--alt: Fornece uma descrição alternativa da imagem, útil para acessibilidade e exibida se a imagem não carregar-->
+
                     </a>
+                    <!--Fechando Link-->
+
                     <h3>Homem-Aranha: Através do Aranhaverso</h3>
+                    <!--Sexto Paragrafo-->
+
                     <p>Miles Morales segue sua jornada pelo multiverso, enfrentando novos vilões e desafios enquanto tenta manter o equilíbrio.</p>
+                    <!--Paragrafo-->
+
                 </div>
-            </div>
+                <!--Fechando grupo/div-->
+
+            </div><!--Fechando novamente grupo/div-->
+
         </section>
-        <section class="category">
-            <h2>Músicas</h2>
-            <div id="Músicas"></div>
-            <div class="grid">
-                <div class="card">
-                    <a href="https://www.youtube.com/watch?v=k2PY3crP9Ws&t=3s">
-                    <img src="https://static.qobuz.com/images/covers/ab/y7/c3mpi3335y7ab_600.jpg" alt="Música 1">
-                    </a>
-                    <h3>The Spidey Suite</h3>
-                    <p>Composta por Michael Giacchino, essa faixa traz o tema épico e jovem do Homem-Aranha.</p>
-                </div>
-                <div class="card">
-                     <a href="https://www.youtube.com/watch?v=Y88LVU7MAe4">
-                    <img src="https://i.scdn.co/image/ab67616d00001e0234d9b8798b3ea6b96cad5faa" alt="Música 2">
-                     </a>
-                    <h3>What’s Up Danger</h3>
-                    <p>Uma música energética e vibrante que simboliza o espírito aventureiro de Peter Parker.</p>
-                </div>
-                <div class="card">
-                    <a href="https://www.youtube.com/watch?v=hIh-2Vd7VSs">
-                    <img src="https://i1.sndcdn.com/artworks-3FjFR4si7wUrmf07-O9QcOg-t500x500.jpg" alt="Música 3">
-                    </a>
-                    <h3>Spider-Man Theme</h3>
-                    <p>Composta por Michael Giacchino, esta faixa traz ação e nostalgia, com foco na jornada de Peter Parker.</p>
-                </div>
-            </div>
-        </section>
+        <!--Fechando a section/agrupamento-->
 
         <section class="category">
-            <div id="Jogos"></div>
-            <h2>Outras Mídias</h2>
+            <!--Criando outro card/cartão que permite organizar as informações-->
+
+            <h2>Músicas</h2>
+            <!--Paragrafo-->
+
+            <div id="Músicas"></div>
+            <!--Ultilizando Id para conetar as informações dos cartões-->
+
             <div class="grid">
+                <!--Criando um grid/layout-->
+
                 <div class="card">
-                    <a href="https://www.youtube.com/watch?v=q4GdJVvdxss">
-                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/7/78/Spider-Man_jogo_2018_capa.png/270px-Spider-Man_jogo_2018_capa.png" alt="Jogo 1">
+                    <!--Criando um cartão com informações sobre musicas-->
+
+                    <a href="https://www.youtube.com/watch?v=k2PY3crP9Ws&t=3s">
+                        <!--Criando um link com uma pagina youtube-->
+
+                    <img src="https://static.qobuz.com/images/covers/ab/y7/c3mpi3335y7ab_600.jpg" alt="Música 1">
+                     <!--src: Define o URL da imagem a ser exibida.-->
+                    <!--alt: Fornece uma descrição alternativa da imagem, útil para acessibilidade e exibida se a imagem não carregar-->
+
                     </a>
-                    <h3>Marve Spider-Man (2018)</h3>
-                    <p>Jogo de ação onde o jogador controla Peter Parker enfrentando vilões e explorando sua vida pessoal.</p>
-                </div>
+                    <!--Fechando link-->
+
+                    <h3>The Spidey Suite</h3>
+                    <!--setimo Paragrafo-->
+
+                    <p>Composta por Michael Giacchino, essa faixa traz o tema épico e jovem do Homem-Aranha.</p>
+                    <!--Paragrafo-->
+
+                </div
+                ><!--Fechando o grupo-->
+
                 <div class="card">
-                    <a href="https://www.youtube.com/watch?v=Gr5H85CxI58">
-                    <img src="https://i0.wp.com/nodekeys.com/wp-content/uploads/2023/02/SDTY.png?fit=613%2C782&ssl=1" alt="Jogo 2">
-                    </a>
-                    <h3>Marvel's Spider-Man: Miles Morales (2020)</h3>
-                    <p>Jogo que segue Miles Morales assumindo o manto de Homem-Aranha e enfrentando vilões enquanto lida com seus poderes.</p>
+                    <!--Criando uma cartão com informações-->
+
+                     <a href="https://www.youtube.com/watch?v=Y88LVU7MAe4">
+                        <!--Link com a pagina no youtube-->
+
+                    <img src="https://i.scdn.co/image/ab67616d00001e0234d9b8798b3ea6b96cad5faa" alt="Música 2">
+                    <!--Link com o indereço da imagem -->
+
+                     </a>
+                     <!--Fechando link-->
+
+                    <h3>What’s Up Danger</h3>
+                    <!--Oitavo Titulo-->
+
+                    <p>Uma música energética e vibrante que simboliza o espírito aventureiro de Peter Parker.</p>
+                    <!--Paragrafo-->
+
                 </div>
+                <!--fechando grupo-->
+
                 <div class="card">
-                    <a href="https://www.youtube.com/watch?v=rn4qhWWfgCM">
-                    <img src="https://cdn.marvel.com/content/1x/marvelsspiderman2_lob_crd_02.jpg" alt="Jogo 3">
+                    <!--Criando card para informações-->
+
+                    <a href="https://www.youtube.com/watch?v=hIh-2Vd7VSs">
+                        <!--Link com youtube-->
+
+                    <img src="https://i1.sndcdn.com/artworks-3FjFR4si7wUrmf07-O9QcOg-t500x500.jpg" alt="Música 3">
+                     <!--Link do endereço ed imagem-->
+
                     </a>
-                    <h3>Marvel's Spider-Man 2 (2023)</h3>
-                    <p>Continuação com novas aventuras, onde Peter e Miles enfrentam ameaças ainda maiores enquanto equilibram suas vidas.</p>
+                    <!--Fechando link-->
+
+                    <h3>Spider-Man Theme</h3>
+                    <!--Nono Titulo-->
+                    
+                    <p>Composta por Michael Giacchino, esta faixa traz ação e nostalgia, com foco na jornada de Peter Parker.</p>
+                    <!--Paragrafo-->
+
                 </div>
-            </div>
+                <!--Fechando grupo-->
+
+            </div><!--Fechando novamente o grupo-->
+
         </section>
+        <!--Fechando section-->
+
+        <section class="category">
+            <!--Abrindo um section-->
+
+            <div id="Jogos"></div>
+            <!--Ultilizando Id para conetar as informações dos cartões-->
+
+            <h2>Outras Mídias</h2>
+            <!--Paragrafo-->
+
+            <div class="grid">
+                <!--Criando um grid-->
+
+                <div class="card">
+                    <!--Criando um cartão-->
+
+                    <a href="https://www.youtube.com/watch?v=q4GdJVvdxss">
+                        <!--Link da pagina da youtube-->
+
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/7/78/Spider-Man_jogo_2018_capa.png/270px-Spider-Man_jogo_2018_capa.png" alt="Jogo 1"><!---->
+
+                    </a>
+                    <!--Fechando link-->
+
+                    <h3>Marve Spider-Man (2018)</h3>
+                    <!--Decimo paragrafo-->
+
+                    <p>Jogo de ação onde o jogador controla Peter Parker enfrentando vilões e explorando sua vida pessoal.</p><!---->
+
+                </div>
+                <!--Fechando grupo-->
+
+                <div class="card">
+                    <!--Criar cartão com as informações sobre jogos-->
+
+                    <a href="https://www.youtube.com/watch?v=Gr5H85CxI58">
+                        <!--Link com a pagina do youtube-->
+
+                    <img src="https://i0.wp.com/nodekeys.com/wp-content/uploads/2023/02/SDTY.png?fit=613%2C782&ssl=1" alt="Jogo 2">
+                    <!--Enderenço de imagem-->
+
+                    </a>
+                    <!--Fechando link-->
+
+                    <h3>Marvel's Spider-Man: Miles Morales (2020)</h3>
+                    <!--Decimo primeiro Titulo-->
+
+                    <p>Jogo que segue Miles Morales assumindo o manto de Homem-Aranha e enfrentando vilões enquanto lida com seus poderes.</p>
+                    <!--Paragrafo-->
+
+                </div>
+                <!--Fechando grupo-->
+
+                <div class="card">
+                    <!--Criando cartão com informações-->
+
+                    <a href="https://www.youtube.com/watch?v=rn4qhWWfgCM">
+                        <!--Link com o youtube-->
+
+                    <img src="https://cdn.marvel.com/content/1x/marvelsspiderman2_lob_crd_02.jpg" alt="Jogo 3">
+                    <!--Link endereço da imagem-->
+
+                    </a>
+                    <!--Fechando link-->
+
+                    <h3>Marvel's Spider-Man 2 (2023)</h3>
+                    <!--Decimo Segundo titulo-->
+
+                    <p>Continuação com novas aventuras, onde Peter e Miles enfrentam ameaças ainda maiores enquanto equilibram suas vidas.</p>
+                    <!--Paragrafo-->
+
+                </div>
+                <!--Fechando grupo-->
+
+            </div>
+            <!--Fechando novamente o grupo-->
+
+        </section>
+        <!--Criando uma Section-->
 
         <section class="form-section">
+            <!--Serve para Agrupar grupo-->
+
             <div id="Cadastro"></div>
+            <!--Criando um link entre o catalogo-->
+
             <h2>Cadastre-se no Site para mais Informações</h2>
+            <!--Titulo-->
+
             <form>
+                <!--Forma-->
+
                 <label for="name">Nome:</label>
+                <!--<label>: Define um rótulo para o campo de entrada. O atributo for="name" associa o rótulo ao campo de entrada com o id="name".-->
+
                 <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                <!--input type="text">: Cria um campo de texto onde o usuário pode digitar seu nome.-->
+                <!--id="name": Identificador único para o campo, associado ao rótulo.-->
         
                 <label for="email">E-mail:</label>
+                <!--<input type="email">: Cria um campo para o usuário inserir um e-mail. O navegador pode verificar automaticamente o formato correto de e-mail.-->
+
                 <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                <!--id="email" e name="email": Identificadores para o campo.-->
+                <!--placeholder="Seu e-mail": Texto de dica do campo.-->
+                <!--required: Torna o campo obrigatório.-->
         
                 <label for="film">Filme Favorito:</label>
+                <!--<label>: Rótulo para o campo "Filme Favorito".-->
+
                 <input type="text" id="film" name="film" placeholder="Seu filme Favorito" required>
+                <!--<input type="text">: Campo de texto para o usuário digitar o nome do filme favorito.-->
+                <!--id="film" e name="film": Identificadores para o campo.-->
+                <!--placeholder="Seu filme Favorito": Texto de dica do campo.-->
+                <!--required: Torna o campo obrigatório.-->
         
-                <button type="submit">Cadastrar</button>
+                <button type="submit">Cadastrar
+                <!--<button type="submit">: Um botão que, quando clicado, envia o formulário. O tipo submit faz o envio dos dados.-->
+
+                </button>
+                <!--Fechando butão-->
+
             </form>
+            <!--Fechando forma-->
+
         </section>
-        
+        <!--Fechando section-->
+
         <section class="form-section batalha">
+            <!--<section class="form-section batalha">: Cria uma nova seção com as classes form-section e batalha. Isso pode ser usado para agrupar conteúdo ou aplicar estilos específicos.-->
+
             <div id="user-list">
+                <!--<div id="user-list">: Cria um contêiner que provavelmente será preenchido com a lista de usuários cadastrados.-->
+
                 <h3>Usuários Cadastrados do site:</h3>
-                <ul></ul>
-            </div>
-        </section>
-    </div>
+                <!--<h3>: Exibe o título "Usuários Cadastrados do site".-->
+
+                <ul></ul><!--<ul>: Lista não ordenada que será preenchida com os itens (provavelmente os nomes dos usuários).-->
+
+            </div><!--Fecha o contêiner <div>-->
+
+        </section><!--Fecha a seção <section>.-->
+
+    </div><!--Fechando Grupo-->
+
     <footer>
+        <!--<footer>: Cria o rodapé da página.-->
+
         <p>Catálogo do CineVibes &copy; 2024. Todos os direitos reservados.</p>
-    </footer>
+        <!--Informações do rodape-->
+
+    </footer><!--Fechando Rodaper-->
     
 
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
+    <!--<script src="/js/script.js">: Inclui o arquivo JavaScript script.js para adicionar funcionalidades ao site.-->
+
 </body>
+<!--</body>: Fecha o corpo da página.-->
+
 </html>
+<!--</html>: Fecha o documento HTML.-->

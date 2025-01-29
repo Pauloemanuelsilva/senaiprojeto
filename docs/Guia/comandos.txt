@@ -48,3 +48,53 @@ abra um novo terminal
 e intale o git hub compilot e o pull request
 envie suas informações para git
 e se cadastre na sua conta do github
+
+
+aula 2
+
+git branch lista de todas as branch.
+git branch develop  cria uma nova branch.
+git branch.
+
+git checkout developtroca para a branch criada.
+git branch.
+git pull origin develop "escolha sua branch" -puxa todos os dados do GitHub direto para a branch escolhida.
+
+
+
+
+html
+
+head cabeça do site 
+seo= adiministrador do site
+meta charset="UTF-8"
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> deixar resposivo
+meta name = "description" content= comportamento
+meta name = "keyword "
+meta name = "author" informação
+
+meta gera informação/meta dados 
+
+body corpo 
+todo o conteudo sera codificado
+
+header Cabeçalho
+a = ancora
+h = titulos
+<a href= "pagina2.html">link para outra pagina</a> exemplo
+img scr= cont/imagem/imagem.png width 400
+p = paragrafo
+d = span
+
+navd 
+main
+footer
+html
+
+
+
+linguagem de marcação
+
+endereços de web
+
+link caminho esterno

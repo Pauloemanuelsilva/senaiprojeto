@@ -6,7 +6,7 @@ body {
     padding: 0;
     background-color: #fff3f3;
        /* Definir a imagem de fundo */
-       background-image: url('https://i.pinimg.com/736x/fd/23/0f/fd230f30fe47d1b928a598ecd585d27b.jpg');
+       background-image: url('https://updateordie.com/wp-content/uploads/2021/12/spiderman-into-spiderverse-va-1280x720-1.jpeg.webp');
        /* Tornar a imagem de fundo adaptável à tela */
        background-size: cover;
        /* Manter a imagem fixa quando a página rolar */
@@ -21,7 +21,7 @@ body {
     color: #fcf7f7;
 }
 table {
-    background-color: lightblue; /* Define um fundo azul claro */
+    background-color: rgba(240, 32, 32, 0.808); /* Define um fundo azul claro */
 }
 .container {
     position: relative;
@@ -40,7 +40,7 @@ table {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(207, 2, 2);
     text-align: center;
     z-index: 1; /* Garante que o texto fique acima da imagem */
   }
@@ -79,16 +79,16 @@ h1, h2 {
     max-width: 1200px;
     margin: 20px auto;
     padding: 10px;
-    color: #ffffff;
+    color: #f1e4e4;
 }
 
 .intro {
     font-family: Comic Sans MS;
     text-align: center;
     margin-bottom: 30px;
-    background: #17267eb7;
+    background: #a81a1094;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 9px;
 }
 
 .category {

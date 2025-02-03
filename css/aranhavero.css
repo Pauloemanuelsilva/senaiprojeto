@@ -6,7 +6,7 @@ body {
     padding: 0;
     background-color: #fff3f3;
        /* Definir a imagem de fundo */
-       background-image: url('https://updateordie.com/wp-content/uploads/2021/12/spiderman-into-spiderverse-va-1280x720-1.jpeg.webp');
+       background-image: url('https://preview.redd.it/310bn0w01jk81.jpg?auto=webp&s=7f18a120aa7ff9313a158511df9fadc845778d81');
        /* Tornar a imagem de fundo adaptável à tela */
        background-size: cover;
        /* Manter a imagem fixa quando a página rolar */
@@ -77,7 +77,7 @@ h1, h2 {
 
 .container {
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 0px auto;
     padding: 10px;
     color: #f1e4e4;
 }
@@ -87,7 +87,7 @@ h1, h2 {
     text-align: center;
     margin-bottom: 30px;
     background: #a81a1094;
-    padding: 15px;
+    padding: 10px;
     border-radius: 9px;
 }
 
@@ -102,32 +102,43 @@ h1, h2 {
     justify-content: center;
 }
 
+.cards-container {
+    display: flex;
+    gap: 20px; /* Espaço entre os cards */
+    flex-wrap: wrap; /* Para permitir que os cards quebrem para a próxima linha se o espaço for pequeno */
+}
+
 .card {
-    font-family: Comic Sans MS;
-    background: rgb(151, 25, 25);
-    border: 1px solid #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(107, 25, 25, 0.1);
+    background: #87cfeb8e;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 250px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 280px;
     text-align: center;
-    color: #000000;
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 400px;
+    
 }
 
 .card h3 {
-    margin: 10px 0;
-    font-size: 18px;
+    margin: 15px 0;
+    font-size: 1.25rem; 
+    color: #333;
 }
 
 .card p {
-    font-size: 14px;
-    color: #e4d9d9;
-    margin: 0 10px 10px;
+    font-size: 0.9rem;
+    color: #000000;
+    margin: 0 10px 20px;
 }
 
 .form-section {

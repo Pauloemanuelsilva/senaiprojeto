@@ -1,0 +1,232 @@
+
+/* Estilo geral */
+body {
+    font-family: Comic Sans MS;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: #fff3f3;
+       /* Definir a imagem de fundo */
+       background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210913/pngtree-cobweb-on-red-grunge-background-image_889625.jpg');
+       /* Tornar a imagem de fundo adaptável à tela */
+       background-size: cover;
+       /* Manter a imagem fixa quando a página rolar */
+       background-attachment: fixed;
+       /* Garantir que a imagem ocupe todo o fundo */
+       background-position: center center;
+       /* Definir a cor de fundo para áreas sem imagem */
+       background-color: #f0f0f0;
+       /* Garantir que o corpo tenha altura suficiente para cobrir a tela */
+       height: 100vh;
+       margin: 0;
+    color: #fcf7f7;
+}
+
+header {
+    background-color: #181414;
+    color: rgb(112, 33, 33);
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: Comic Sans MS;
+    margin: 0;
+    font-weight: 800;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    color: #d7d7d7;
+}
+
+.intro {
+    font-family: Comic Sans MS;
+    text-align: center;
+    margin-bottom: 30px;
+    background: #141212;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    font-family: Comic Sans MS;
+    background: rgb(151, 25, 25);
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(107, 25, 25, 0.1);
+    overflow: hidden;
+    max-width: 250px;
+    text-align: center;
+    color: #000000;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #e4d9d9;
+    margin: 0 10px 10px;
+}
+
+.form-section {
+    background: #7b1515;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+form button {
+    padding: 10px;
+    background-color: #791a1a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #eb9191;
+}
+
+footer {
+    background-color: #612323;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+a {
+    color: #862424;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+        /* Adicionando um pouco de animação nas cartas */
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 15px rgba(147, 54, 54, 0.2);
+        }
+
+        /* Estilizando os botões e links */
+        .btn, .nav-link, button[type="submit"] {
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .btn:hover, .nav-link:hover, button[type="submit"]:hover {
+            background-color: #7b2421;
+            color: white;
+        }
+
+        /* Animação nos cards quando eles aparecem */
+        .grid .card {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        .grid .card:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+        .grid .card:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+        .grid .card:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+        .grid .card:nth-child(4) {
+            animation-delay: 0.8s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Estilizando o formulário */
+        .form-section {
+            margin-top: 40px;
+        }
+
+        .form-section input {
+            margin-bottom: 10px;
+        }
+
+        .form-section button[type="submit"] {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #a9423f;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Feedback de sucesso */
+        .success-message {
+            color: rgb(28, 29, 132);
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        
+        

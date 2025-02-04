@@ -1,0 +1,32 @@
+@import url('https://developer.mozilla.org/en-US/docs/Web/CSS/background-position');
+@import
+url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    background-position: top;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8b2d2d94;
+    color: #e40000;
+    transition: all 0.3s ease-in-out;
+}
+
+header {
+    background-color: #862929;
+    color: #3f0df3;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(66, 48, 48, 0.3);
+}
+

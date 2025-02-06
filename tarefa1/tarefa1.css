@@ -1,17 +1,5 @@
-@import url('https://developer.mozilla.org/en-US/docs/Web/CSS/background-position');
 @import
 url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
-
-*{
-    background-image: url('https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABR6vn8BtaC8r6FhDOfMCliOri5vm4p5bCnxzV61blyd_QJP0qr8VdYGGyoFxkLfwDc1nDVqf4ilKrmD1XquOAlXD29EyAM4UbC4i.jpg?r=54a');
-    background-position: top;
-    
-}
-
-*{
-
-
-}
 
 *{
     margin: 0;
@@ -24,57 +12,50 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #8b2d2d94;
-    color: #e40000;
+    background-color: #000000;
+    color: #c20000;
     transition: all 0.3s ease-in-out;
 }
 
 header {
-    background-color: #862929;
-    color: #3f0df3;
+    background-color: #181414;
+    color: rgb(112, 33, 33);
     text-align: center;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(66, 48, 48, 0.3);
-
 }
 
-.cards-container {
-    display: flex;
-    gap: 20px; /* Espaço entre os cards */
-    flex-wrap: wrap; /* Para permitir que os cards quebrem para a próxima linha se o espaço for pequeno */
-}
-
-.card {
-    background: #860c0ce5;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(39, 35, 35, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    max-width: 280px;
+h1, h2 {
+    font-family: Comic Sans MS;
+    margin: 0;
+    font-weight: 800;
     text-align: center;
-    border-radius: 30px;
 }
 
-.card:hover {
-    transform: translateY(-10px); 
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+
+.category {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .card img {
-    width: 300px;
-    height: 400px;
-    
+    width: 100%;
+    height: auto;
 }
 
 .card h3 {
-    margin: 15px 0;
-    font-size: 1.25rem; 
-    color: #ffefef;
+    margin: 10px 0;
+    font-size: 18px;
 }
 
 .card p {
-    font-size: 0.9rem;
-    color: #000000;
-    margin: 0 10px 20px;
+    font-size: 14px;
+    color: #e4d9d9;
+    margin: 0 10px 10px;
 }
 

@@ -32,18 +32,30 @@ h1, h2 {
 }
 
 
-.container {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 10px;
-    color: #d7d7d7;
+.category {
+    margin-bottom: 20px;
 }
 
-.intro {
-    font-family: Comic Sans MS;
-    text-align: center;
-    margin-bottom: 30px;
-    background: #141212;
-    padding: 15px;
-    border-radius: 8px;
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #e4d9d9;
+    margin: 0 10px 10px;
+}
+

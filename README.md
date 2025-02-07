@@ -4,7 +4,6 @@
 ### 1.1: Abrir o terminal (ou prompt de comando)
 
 <p>No Windows: Use o Git Bash ou o Prompt de Comando (cmd).</p>
-<p>No macOS e Linux: Use o terminal padrão do sistema.</p>
 
 ### 1.2: Verificar se o Git está instalado
 
@@ -15,9 +14,9 @@ git --version
 <p>Esse comando verifica se o Git está instalado no computador e exibe a versão do Git instalada. Se o Git não estiver instalado, o terminal informará um erro.</p>
 
 ### Resultado esperado:
-<p>git version 2.39.1</p>
+<p>git version 2.xxx</p>
 
-### Caso o camando de erro basta Instalar o Git.
+## Passo 2: Caso o camando de erro basta Instalar o Git.
 <p>Se o comando anterior não mostrou a versão do Git, significa que ele não está instalado no seu computador. Vou te mostrar como instalar.</p>
 
 ### 2.1: Instalando o Git no Windows.
@@ -29,15 +28,27 @@ git --version
 
 <p>Após a instalação, reinicie o terminal ou prompt de comando e digite git --version novamente para verificar se foi instalado corretamente.</p>
 
-### Passo 3: Criando uma Conta no GitHub.
+## Passo 3: Criando uma Conta no GitHub
 
 <p>Antes de começar a usar o Git com repositórios remotos, é necessário ter uma conta no GitHub, um dos serviços mais populares para hospedar repositórios Git.</p>.
 
 ### 3.1: Criando uma conta no GitHub.
 
 <p>1. Acesse o site GitHub.</p>
+
 <p>2. Clique em Sign up no canto superior direito.</p>
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
+
 <p>3 .Preencha as informações solicitadas</p>
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
 
 - Username: Escolha um nome de usuário único. 
 - Email: Insira seu e-mail (pode ser o mesmo que você usa para configurar o Git). 
@@ -48,13 +59,17 @@ git --version
 
 <p>Agora, você tem uma conta no GitHub! Vamos para a próxima etapa. </p>
 
-### Passo 4: Configurando o Git (Nome e E-mail).
+## Passo 4: Configurando o Git (Nome e E-mail).
 <p>Agora, vamos configurar o Git com seu nome e e-mail para que suas alterações sejam registradas corretamente.</p>
 
 <p>Agora, volte para o terminal e digite os seguintes comandos, substituindo as informações pelo seu nome e e-mail:</p>
 
 ### 4.1: Configurar seu nome e e-mail no Git.
-<p>No terminal (Git Bash ou Prompt de Comando), digite os seguintes comandos, substituindo as informações pelo seu nome e e-mail:</p>
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
 
 ```
 git config --global user.name "Seu Nome"
@@ -86,19 +101,30 @@ git config --list
 #### **5.1: Instalando o VS Code**
 
 1. Acesse o site do **Visual Studio Code**: [Visual Studio Code](https://code.visualstudio.com/).
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
+
 2. Baixe o instalador para **Windows**.
 3. Execute o instalador e siga as instruções. Durante o processo de instalação, marque a opção para **adicionar o VS Code ao PATH**. Isso facilita a abertura do VS Code diretamente do terminal.
 4. Após a instalação, você pode abrir o **VS Code** através do menu Iniciar ou digitando `code` no terminal.
 
 ---
 
-### **Passo 6: Usando o Git no VS Code**
+## **Passo 6: Usando o Git no VS Code**
 
 Agora que o **Git** está instalado e configurado, vamos integrar o Git ao **VS Code** e aprender como usá-lo para versionar o código.
 
 #### **6.1: Abrindo o terminal no VS Code**
 
 **Agora, vá para o VS Code**. Abra o VS Code e, em seguida, abra o terminal integrado pressionando ``Ctrl + ` `` ou vá até o menu **Terminal > New Terminal**.
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
 
 #### **6.2: Inicializando um repositório Git**
 
@@ -114,7 +140,7 @@ Esse comando cria um novo repositório Git na pasta onde você está trabalhando
 
 ---
 
-### **Passo 7: Comandos Básicos do Git**
+## **Passo 7: Comandos Básicos do Git**
 
 Agora que você tem um repositório Git, vamos aprender a fazer operações básicas com o Git, como adicionar arquivos e comitar mudanças.
 
@@ -160,7 +186,7 @@ Mostra o status atual do repositório, indicando arquivos que foram modificados 
 
 ---
 
-### **Passo 8: Enviando para um Repositório Remoto (GitHub)**
+## **Passo 8: Enviando para um Repositório Remoto (GitHub)**
 
 Agora que você tem um repositório local, vamos enviar os arquivos para o **GitHub**.
 
@@ -193,7 +219,7 @@ git push -u origin master
 
 ---
 
-### **Passo 9: Usando o Git com o VS Code (Interface Gráfica)**
+## Passo 9: Usando o Git com o VS Code (Interface Gráfica)
 
 O **VS Code** tem uma interface gráfica muito útil para trabalhar com o Git, sem precisar digitar comandos no terminal.
 
@@ -202,7 +228,7 @@ O **VS Code** tem uma interface gráfica muito útil para trabalhar com o Git, s
 
 ---
 
-### **Resumo dos Comandos Usados:**
+### Resumo dos Comandos Usados:
 
 - **Verificar a versão do Git:**
   ```

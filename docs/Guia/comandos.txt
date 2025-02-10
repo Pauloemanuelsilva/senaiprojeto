@@ -110,3 +110,8 @@ push -u oringin develop
 git checkout master
 git merge develop
 git push -u oringin maste
+
+{
+    function soma (a, b)
+    return a+b
+    }

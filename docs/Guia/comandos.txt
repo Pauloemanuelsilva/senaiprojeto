@@ -98,3 +98,15 @@ linguagem de marcação
 endereços de web
 
 link caminho esterno
+
+
+
+navegar entre as branch e enviado as modificações feitas nas branch
+
+git pull Paulo.vibes
+git checkout develop
+merge Paulo.vibes 
+push -u oringin develop
+git checkout master
+git merge develop
+git push -u oringin maste

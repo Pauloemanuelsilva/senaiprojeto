@@ -131,7 +131,7 @@ Agora que o **Git** está instalado e configurado, vamos integrar o Git ao **VS 
 1. Crie uma nova pasta para o seu projeto ou abra uma pasta existente no VS Code.
 2. **No terminal do VS Code**, inicialize um repositório Git com o seguinte comando:
 
-```bash
+```
 git init
 ```
 

@@ -10,6 +10,13 @@
 ```
 git --version
 ```
+
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
+
 ### O que isso faz:
 <p>Esse comando verifica se o Git está instalado no computador e exibe a versão do Git instalada. Se o Git não estiver instalado, o terminal informará um erro.</p>
 
@@ -21,6 +28,12 @@ git --version
 
 ### 2.1: Instalando o Git no Windows.
 <p>Acesse o site oficial: Git Downloads.</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
 
 <p>Baixe o instalador para Windows.</p>
 
@@ -85,6 +98,12 @@ git config --global user.email "seuemail@exemplo.com"
 ### 4.2: Verificar as configurações feitas.
 <p>Agora, vá para o terminal novamente e execute o comando abaixo para verificar se as configurações foram feitas corretamente:</p>
 
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
+
 ```
 git config --list
 
@@ -94,8 +113,6 @@ git config --list
 <p>Esse comando exibe todas as configurações do Git, como o nome de usuário e o e-mail que você acabou de configurar.</p>
 
 ### Passo 5: Instalando o (vs code)
-<p>Agora vamos instalr o VS CODE, que um editor de codigo  poderoso que tem suporte nativo para o GIT.</p>
-
 <p> Agora vamos instalar o (VS Code), que é um editor de código poderoso que tem suporte nativo para o Git.</p>
 
 #### **5.1: Instalando o VS Code**
@@ -164,7 +181,7 @@ Agora, vamos salvar as alterações no repositório com o commit.
 
 **No terminal do VS Code**, digite o comando:
 
-```bash
+```
 git commit -m "Adicionando o README inicial"
 ```
 

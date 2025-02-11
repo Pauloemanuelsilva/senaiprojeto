@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: 0;
+}
+
+#produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto{
+    width: 200px;
+    margin: 10px;
+    border: 2px solid;
+    padding: 10px; ;
+}
+.produto image{
+    width: 100%;
+}
+#carrinho {
+    list-style: none;
+    padding: 0;
+}
+
+#carrinho li {
+    margin-bottom: 5px;
+}

@@ -256,19 +256,14 @@ Agora que você tem um repositório local, vamos enviar os arquivos para o **Git
 2. Clique em **New Repository** (Novo Repositório).
 <p align="center">
     <a>
-    <img src="/content/images/Branch 5.png" width="800">
+    <img src="/content/imagen/new.png" width="800">
     </a>
 </p>
 3. Escolha um nome para o repositório (não marque a opção de adicionar arquivos iniciais, como README ou .gitignore).
-<p align="center">
-    <a>
-    <img src="/content/images/Branch 5.png" width="800">
-    </a>
-</p>
 4. Crie o repositório.
 <p align="center">
     <a>
-    <img src="/content/images/Branch 5.png" width="800">
+    <img src="/content/imagen/repositorio.png" width="800">
     </a>
 </p>
 
@@ -285,7 +280,7 @@ git remote add origin https://github.com/seunome/nomedorepositorio.git
 **No terminal do VS Code**, envie os arquivos para o GitHub com o comando:
 <p align="center">
     <a>
-    <img src="/content/images/Branch 5.png" width="800">
+    <img src="/content/imagen/git push.png" width="800">
     </a>
 </p>
 

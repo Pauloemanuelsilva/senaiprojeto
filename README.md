@@ -13,7 +13,7 @@ git --version
 
 <p align="center">
     <a>
-    <img src="/content/images/Branch 5.png" width="800">
+    <img src="/content/imagen/Git --Version.png" width="800">
     </a>
 </p>
 
@@ -31,7 +31,7 @@ git --version
 
 <p align="center">
     <a>
-    <img src="/content/images/Branch 5.png" width="800">
+    <img src="/content/imagen/Instalar o Git.png" width="800">
     </a>
 </p>
 
@@ -52,14 +52,14 @@ git --version
 <p>2. Clique em Sign up no canto superior direito.</p>
 <p align="center">
     <a>
-    <img src="/content/images/Branch 5.png" width="800">
+    <img src="/content/imagen/GITHUB.png" width="800">
     </a>
 </p>
 
 <p>3 .Preencha as informações solicitadas</p>
 <p align="center">
     <a>
-    <img src="/content/images/Branch 5.png" width="800">
+    <img src="/content/imagen/Regitra os Dados Pessoais.png" width="800">
     </a>
 </p>
 
@@ -80,7 +80,13 @@ git --version
 ### 4.1: Configurar seu nome e e-mail no Git.
 <p align="center">
     <a>
-    <img src="/content/images/Branch 5.png" width="800">
+    <img src="/content/imagen/Configuração do Nome.png" width="800">
+    </a>
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/imagen/Configuração do email.png" width="800">
     </a>
 </p>
 
@@ -100,7 +106,7 @@ git config --global user.email "seuemail@exemplo.com"
 
 <p align="center">
     <a>
-    <img src="/content/images/Branch 5.png" width="800">
+    <img src="/content/imagen/Config List.png" width="800">
     </a>
 </p>
 
@@ -120,7 +126,7 @@ git config --list
 1. Acesse o site do **Visual Studio Code**: [Visual Studio Code](https://code.visualstudio.com/).
 <p align="center">
     <a>
-    <img src="/content/images/Branch 5.png" width="800">
+    <img src="/content/imagen/Página Vscode.png" width="800">
     </a>
 </p>
 
@@ -134,19 +140,40 @@ git config --list
 
 Agora que o **Git** está instalado e configurado, vamos integrar o Git ao **VS Code** e aprender como usá-lo para versionar o código.
 
-#### **6.1: Abrindo o terminal no VS Code**
+#### **6.1: Abrindo o terminal no VS Code**´
+<p align="center">
+    <a>
+    <img src="/content/imagen/Code ..png" width="800">
+    </a>
+</p>
+
+```
+code .
+```
+<p>Coneta o projeto ao VSCODE</p>
 
 **Agora, vá para o VS Code**. Abra o VS Code e, em seguida, abra o terminal integrado pressionando ``Ctrl + ` `` ou vá até o menu **Terminal > New Terminal**.
 <p align="center">
     <a>
-    <img src="/content/images/Branch 5.png" width="800">
+    <img src="/content/imagen/New Terminal.png" width="800">
     </a>
 </p>
 
 #### **6.2: Inicializando um repositório Git**
 
 1. Crie uma nova pasta para o seu projeto ou abra uma pasta existente no VS Code.
+<p>Va ate o Terminal do seu Computador e digite o comando.</p>
+
+```
+mkdir nome da pasta de sua escolha
+```
+
 2. **No terminal do VS Code**, inicialize um repositório Git com o seguinte comando:
+<p align="center">
+    <a>
+    <img src="/content/imagen/New Terminal.png" width="800">
+    </a>
+</p>
 
 ```
 git init
@@ -167,8 +194,13 @@ Agora que você tem um repositório Git, vamos aprender a fazer operações bás
 2. **Adicionar o arquivo ao Git**:
 
 **Agora, volte para o terminal do VS Code** e execute o seguinte comando:
+<p align="center">
+    <a>
+    <img src="/content/imagen/Readme.png" width="800">
+    </a>
+</p>
 
-```bash
+```
 git add README.md
 ```
 
@@ -180,6 +212,11 @@ O comando `git add` adiciona o arquivo `README.md` ao **staging area**, ou seja,
 Agora, vamos salvar as alterações no repositório com o commit.
 
 **No terminal do VS Code**, digite o comando:
+<p align="center">
+    <a>
+    <img src="/content/imagen/git commit.png" width="800">
+    </a>
+</p>
 
 ```
 git commit -m "Adicionando o README inicial"
@@ -194,7 +231,13 @@ Para verificar o status do repositório e ver se há alterações pendentes, exe
 
 **Agora, vá para o terminal do VS Code** e execute:
 
-```bash
+<p align="center">
+    <a>
+    <img src="/content/imagen/Git Status.png" width="800">
+    </a>
+</p>
+
+```
 git status
 ```
 
@@ -211,22 +254,42 @@ Agora que você tem um repositório local, vamos enviar os arquivos para o **Git
 
 1. **Agora, vá para o GitHub**. Acesse [GitHub](https://github.com) e faça login com a sua conta.
 2. Clique em **New Repository** (Novo Repositório).
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
 3. Escolha um nome para o repositório (não marque a opção de adicionar arquivos iniciais, como README ou .gitignore).
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
 4. Crie o repositório.
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
 
 #### **8.2: Conectando o repositório local ao GitHub**
 
 **Agora, volte para o terminal do VS Code** e adicione o repositório remoto do GitHub com o seguinte comando. Substitua a URL abaixo pela URL do seu repositório GitHub:
 
-```bash
+```
 git remote add origin https://github.com/seunome/nomedorepositorio.git
 ```
 
 #### **8.3: Enviando as alterações para o GitHub**
 
 **No terminal do VS Code**, envie os arquivos para o GitHub com o comando:
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
 
-```bash
+```
 git push -u origin master
 ```
 

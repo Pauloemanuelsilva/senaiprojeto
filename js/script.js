@@ -24,6 +24,6 @@ form.addEventListener('submit', function (event) {
         addUser(name, email, favorit); // Adiciona usuário na lista
         form.reset(); // Reseta os campos do formulário
     } else {
-        alert("Por favor, preencha todos os campos!");  // Mensagem de alerta mais clara
+        alert("Preencha todos campos Casca De Bala!");  // Mensagem de alerta mais clara
     }
 });

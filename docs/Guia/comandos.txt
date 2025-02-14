@@ -115,3 +115,12 @@ git push -u oringin maste
     function soma (a, b)
     return a+b
     }
+
+
+navegar ate a o workspace
+criar uma pasta mkdir nome de sua escolha
+navega ate essa pasta recém criada cd nomealeatorio
+git init
+ls
+cole o link do repositório
+digite code . para ir pro vscode

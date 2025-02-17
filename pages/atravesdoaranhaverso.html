@@ -11,6 +11,65 @@
     <title>Homem-Aranha Através do  Aranhaverso (2018)</title>
 </head>
 <body>
+    <header>
+        <h1>CineVibes </h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!--CLASS = "Atribui uma classe para estilizar ou agrupar elementos."-->
+            <a class="navbar-brand" href="#"></a>
+            <!--a = "Cria um link para outra página ou recurso."-->
+    
+            <!--Inicio do BUTTON = "Cria um botão clicável."-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+                <!--SPAN = "Usado para agrupar ou estilizar texto inline."-->
+            </button>
+            <!--Fim do BUTTON-->
+            
+            <!--Inicio do DIV = "Usado para agrupar elementos em blocos."-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!--Inicio do UL = "Cria uma lista não ordenada (com marcadores)."-->
+                <ul class="navbar-nav">
+                    <!--Inicio do LI = "Define o item SOBRE O SITE"-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Detalhes do Filme">detalhe</a>
+                        <!--HREF = "Especifica o destino de um link."-->
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <!--Inicio do LI = "Define o item FILMES"-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Personagens">Personagens</a>
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <!--Inicio do LI = "Define o item MÚSICAS"-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Enredo</a>
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <!--Inicio do LI = "Define o item JOGOS"-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Trailer do Filme">Trailer</a>
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <!--Inicio do LI = "Define o item CADASTRO"-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#🕸️ Curiosidades">Curiosidades</a>
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#📣 Recepção">Recepção</a>
+                    </li>
+
+                </ul>
+                <!--Fim do UL-->
+              
+            </div>
+        </nav>
+      </header>
 
     <div class="container">
         <img src="https://m.media-amazon.com/images/S/pv-target-images/7bac8684a6962bb7b21c921adc42ab2f3717df7d8f62ce7ea01f3bc5ef6f5666.jpg" alt="Imagem de fundo" class="imagem">
@@ -21,7 +80,7 @@
 
     <div class="container">
         <section class="intro">
-            <h2>Detalhes do Filme</h2>
+            <h2 id="Detalhes do Filme">Detalhes do Filme</h2>
         </section>
         <table>
             <thead>
@@ -65,7 +124,7 @@
                     <th>Detalhes</th>
                 </tr>
             </thead>
-        <h2>Personagens</h2>
+        <h1 id="Personagens">Personagens</h1>
         <div class="cards-container">
             <div class="card">
                 <a href="https://marvels-spider-man.fandom.com/wiki/Miles_Morales" target="_blank">
@@ -122,14 +181,13 @@
         </div>
 
         <section class="intro">
-            <h2>🕸 Enredo do filme (Sem Spoiler)</h2>
+            <h2 id="🕸 Enredo do filme (Sem Spoiler)">🕸 Enredo do filme (Sem Spoiler)</h2>
             <p>Miles Morales, o Homem-Aranha, se une a Gwen Stacy e a outras versões do Homem-Aranha de diferentes dimensões para enfrentar um vilão que ameaça a estabilidade do multiverso. Juntos, eles embarcam em uma jornada épica através do Aranhaverso, enfrentando desafios que testarão suas habilidades e laços de amizade.</p>
         </section>
 
+        <h1 id="Trailer do Filme">Trailer do Filme</h1>
         <div class="container" style="text-align: center; display: flex; justify-content: center; align-items: center; height: 100vh;">
-            <h2>Trailer do Filme</h2>
-            <div style="display: flex; justify-content: center;">
-                <iframe width="1500" height="800"  
+                <iframe width="1400" height="700"  
                         src="https://www.youtube.com/embed/LZBlXkDvhh4" 
                         title="Trailer do Filme"
                         frameborder="0"
@@ -140,16 +198,16 @@
         </div>
 
         <section class="intro">
-            <h2>🕸️ Curiosidades</h2>
+            <h2 id="🕸️ Curiosidades">🕸️ Curiosidades</h2>
             <ul>
-                <li><strong>A animação é a sequência</strong> de "Homem-Aranha no Aranhaverso" (2018), que também foi aclamada pela crítica</li>
+                <li><strong>A animação é a sequência</strong>de "Homem-Aranha no Aranhaverso" (2018), que também foi aclamada pela crítica</li>
                 <li><strong>O filme apresenta diversas versões</strong> do Homem-Aranha, cada uma com um estilo de animação único, refletindo suas origens e culturas distintas.</li>
                 <li><strong>A produção levou vários anos para ser concluída,</strong> devido à complexidade da animação e ao desejo de manter a qualidade do primeiro filme.</li>
             </ul>
         </section>
 
         <section class="intro">
-            <h2>📣 Recepção</h2>
+            <h2 id="📣 Recepção">📣 Recepção</h2>
             <p>A recepção também foi muito positiva devido à forma como o filme explorou o conceito de multiverso de uma maneira acessível, com várias versões do Homem-Aranha, proporcionando uma experiência única e empolgante para os fãs do personagem.</p>
         </section>
 
@@ -170,7 +228,7 @@
     </table>
 
         <section class="intro">
-            <h2>💨 Continuação</h2>
+            <h2 id="💨 Continuação">💨 Continuação</h2>
             <p>"Homem-Aranha: Através do Aranhaverso" foi amplamente elogiado por críticos e público, destacando-se pela inovação na animação, profundidade emocional e desenvolvimento de personagens. A obra é considerada uma das melhores animações de super-heróis já feitas, recebendo altas classificações em plataformas como Rotten Tomatoes e Metacritic.</p>
         </section>
     </div>

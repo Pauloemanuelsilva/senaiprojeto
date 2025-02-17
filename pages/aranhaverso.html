@@ -11,6 +11,65 @@
     <title>Homem-Aranha_No_Aranhaverso</title>
 </head>
 <body>
+    <header>
+        <h1>CineVibes </h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!--CLASS = "Atribui uma classe para estilizar ou agrupar elementos."-->
+            <a class="navbar-brand" href="#"></a>
+            <!--a = "Cria um link para outra página ou recurso."-->
+    
+            <!--Inicio do BUTTON = "Cria um botão clicável."-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+                <!--SPAN = "Usado para agrupar ou estilizar texto inline."-->
+            </button>
+            <!--Fim do BUTTON-->
+            
+            <!--Inicio do DIV = "Usado para agrupar elementos em blocos."-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!--Inicio do UL = "Cria uma lista não ordenada (com marcadores)."-->
+                <ul class="navbar-nav">
+                    <!--Inicio do LI = "Define o item SOBRE O SITE"-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Detalhes do Filme">detalhe</a>
+                        <!--HREF = "Especifica o destino de um link."-->
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <!--Inicio do LI = "Define o item FILMES"-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Personagens">Personagens</a>
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <!--Inicio do LI = "Define o item MÚSICAS"-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#🕸 Enredo do filme (Sem Spoiler)">Enredo</a>
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <!--Inicio do LI = "Define o item JOGOS"-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Trailer do Jogo">Trailer</a>
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <!--Inicio do LI = "Define o item CADASTRO"-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#🕸️ Curiosidades">Curiosidades</a>
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#📣 Recepção">Recepção</a>
+                    </li>
+
+                </ul>
+                <!--Fim do UL-->
+              
+            </div>
+        </nav>
+      </header>
 
     <div class="container">
         <img src="https://www.casadosquadrinhos.com.br/wp-content/uploads/2023/05/imagem-destacada-A-2.png" alt="Imagem de fundo" class="imagem">
@@ -20,7 +79,7 @@
     </div>
 
     <div class="container">
-        <section class="intro">
+        <section class="intro" id="Detalhes do Filme">
             <h2>Detalhes do Filme</h2>
         </section>
         <table>
@@ -58,20 +117,19 @@
                 <tr>
                     <td>Rei do Crime (Wilson Fisk)</td>
                     <td>No Spider-Man: Into the Spider-Verse, Fisk é o principal vilão, um magnata poderoso que tenta abrir um portal para outras dimensões, buscando trazer sua família de uma realidade alternativa. Sua busca pelo poder coloca em risco todo o multiverso.</td>
-                </tr> <tr>
-                    <td>Gatuno  (Aaron Davis) </td>
+                </tr> 
+                <tr>
+                    <td>Gatuno  (Aaron Davis)</td>
                     <td>No filme, Aaron Davis é o tio de Miles Morales e também o criminoso Gatuno. Embora tenha uma relação afetuosa com Miles, ele é um ladrão, o que acaba criando conflitos na vida do sobrinho, especialmente quando seu segredo é revelado.</td>
                 </tr>
-                <tr>
             </tbody>
         </table>
 
-        
-        <h1>Personagens</h1>
+        <h1 id="Personagens">Personagens</h1>
         <div class="cards-container">
             <div class="card">
                 <a href="https://marvels-spider-man.fandom.com/wiki/Miles_Morales" target="_blank">
-                    <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_554o8emub13j55rel5ed12d249/-S265-FWEBP" alt="Miles Morales">
+                    <img src="https://i.pinimg.com/736x/03/e7/9f/03e79f1d6585a0c26d70e7723b8a0af1.jpg" alt="Miles Morales">
                 </a>
                 <h3>Miles Morales</h3>
             </div>
@@ -89,7 +147,7 @@
             </div>
             <div class="card">
                 <a href="https://marvels-spider-man.fandom.com/wiki/Aaron_Davis" target="_blank">
-                    <img src="https://preview.redd.it/6shfjg2menr41.jpg?auto=webp&s=c948c4798580925574b7b04e357ada0e9b699b69" alt="Spider-Man Noir">
+                    <img src="https://i.pinimg.com/736x/65/96/86/6596868d29b28dd2f1c18f3af6e699a2.jpg" alt="Spider-Man Noir">
                 </a>
                 <h3>Spider-Man Noir</h3>
             </div>
@@ -106,7 +164,7 @@
             <div class="cards-container">
                 <div class="card">
                     <a href="https://pt.wikipedia.org/wiki/Spider-Ham" target="_blank">
-                        <img src="https://i.pinimg.com/736x/05/aa/a2/05aaa23c1aaf9a04dd22ebc05a0e2271.jpg" alt="Spider-Ham">
+                        <img src="https://i.pinimg.com/736x/92/eb/4b/92eb4b94b8ea6ba002e7938b26d21cb5.jpg" alt="Spider-Ham">
                     </a>
                     <h3>Spider-Ham</h3>
                 </div>
@@ -114,7 +172,7 @@
                 <div class="cards-container">
                     <div class="card">
                         <a href="https://viloes.fandom.com/pt-br/wiki/Rei_do_Crime_(Homem-Aranha_no_Aranhaverso)" target="_blank">
-                            <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/4/46/Kingpin_Marvel.jpg/250px-Kingpin_Marvel.jpg" alt="Rei do Crime (Wilson Fisk)">
+                            <img src="https://external-preview.redd.it/BfICGzb64J8wpp2E3zPtfUUgy5Lf1ECXEFUxdRK0xNU.png?width=1080&crop=smart&auto=webp&s=c8cff1c62657aff08bc07cefe457b20963f38a09" alt="Rei do Crime (Wilson Fisk)">
                         </a>
                         <h3>Rei do Crime (Wilson Fisk)</h3>
                     </div>
@@ -131,13 +189,13 @@
 
         </div>
 
-        <section class="intro">
+        <section class="intro" id="🕸 Enredo do filme (Sem Spoiler)">
             <h2>🕸 Enredo do filme (Sem Spoiler)</h2>
             <p>Spider-Man: Into the Spider-Verse segue Miles Morales, um jovem que ganha poderes de Homem-Aranha e descobre que existem várias versões do herói espalhadas por diferentes dimensões. Quando uma ameaça que pode destruir o multiverso surge, Miles precisa se juntar a várias versões do Homem-Aranha de diferentes realidades para salvá-lo.</p>
         </section>
 
         <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column; text-align: center;">
-            <h1>Trailer do Jogo</h1>
+            <h1 id="Trailer do Jogo">Trailer do Jogo</h1>
                 <iframe width="1500" height="800"  
                         src="https://www.youtube.com/embed/SS6ABPkfmBE" 
                         title="Trailer do Filme"
@@ -147,12 +205,8 @@
                 </iframe>
             </div>
         </div>
-        
-        
-        
-        
 
-        <section class="intro">
+        <section class="intro" id="🕸️ Curiosidades">
             <h2>🕸️ Curiosidades</h2>
             <ul>
                 <li><strong>Inovação Visual:</strong> O filme mistura animação 3D com o estilo dos quadrinhos, utilizando a técnica "half-tone dots" para criar um efeito visual único que simula as páginas de quadrinhos.</li>
@@ -161,7 +215,7 @@
             </ul>
         </section>
 
-        <section class="intro">
+        <section class="intro" id="📣 Recepção">
             <h2>📣 Recepção</h2>
             <p>Marvel's Spider-Man: Miles Morales foi amplamente aclamado pela crítica e pelos jogadores, sendo considerado uma das melhores experiências para o PlayStation 5, especialmente devido ao seu visual impressionante, jogabilidade divertida e narrativa envolvente. A performance de Nadji Jeter como Miles Morales foi elogiada, e muitos apontaram a evolução do personagem desde sua primeira aparição.</p>
         </section>
@@ -183,17 +237,16 @@
                     <td>US$ 90 milhões</td>
                 </tr>
                 <tr>
-                    <td>Bilheteria</td>
+                    <td>Bilheteira</td>
                     <td>US$ 375 milhões </td>
                 </tr>
             </tbody>
         </table>
 
-        <section class="intro">
+        <section class="intro" id="continuacao">
             <h2>💨 Continuação</h2>
             <p>A continuação, Spider-Man: Across the Spider-Verse, foi lançada em 2023, dando continuidade à jornada de Miles Morales e explorando ainda mais o multiverso, com mais versões do Homem-Aranha e novos desafios. Uma terceira parte, Spider-Man: Beyond the Spider-Verse, já foi anunciada.</p>
         </section>
     </div>
-    
 </body>
 </html>

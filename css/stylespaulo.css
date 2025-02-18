@@ -21,18 +21,17 @@ body {
        margin: 0;
     color: #fcf7f7;
 }
-
  
 header {
-    background-color: #181414;
-    color: rgb(112, 33, 33);
+    background-color: #000000;
+    color: rgb(212, 212, 212);
     text-align: center;
     padding: 20px;
 }
 
 h1, h2 {
     font-family: Comic Sans MS;
-    margin: 0;
+    margin: 10;
     font-weight: 800;
     text-align: center;
 }

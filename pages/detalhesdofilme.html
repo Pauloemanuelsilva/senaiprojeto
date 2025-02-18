@@ -11,6 +11,65 @@
     <title>Marvel's Spider-Man: Miles Morales (2020)</title>
 </head>
 <body>
+    <header>
+        <h1>CineVibes </h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!--CLASS = "Atribui uma classe para estilizar ou agrupar elementos."-->
+            <a class="navbar-brand" href="#"></a>
+            <!--a = "Cria um link para outra página ou recurso."-->
+    
+            <!--Inicio do BUTTON = "Cria um botão clicável."-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+                <!--SPAN = "Usado para agrupar ou estilizar texto inline."-->
+            </button>
+            <!--Fim do BUTTON-->
+            
+            <!--Inicio do DIV = "Usado para agrupar elementos em blocos."-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!--Inicio do UL = "Cria uma lista não ordenada (com marcadores)."-->
+                <ul class="navbar-nav">
+                    <!--Inicio do LI = "Define o item SOBRE O SITE"-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Detalhes do Filme">Detalhes</a>
+                        <!--HREF = "Especifica o destino de um link."-->
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <!--Inicio do LI = "Define o item FILMES"-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Personagens">Personagens</a>
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <!--Inicio do LI = "Define o item MÚSICAS"-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#🕸 Enredo do filme (Sem Spoiler)">Enredo</a>
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <!--Inicio do LI = "Define o item JOGOS"-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Trailer do Filme">Trailer</a>
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <!--Inicio do LI = "Define o item CADASTRO"-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#🕸️ Curiosidades">Curiosidades</a>
+                    </li>
+                    <!--Fim do LI-->
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#📣 Recepção">Recepção</a>
+                    </li>
+
+                </ul>
+                <!--Fim do UL-->
+              
+            </div>
+        </nav>
+      </header>
 
     <div class="container">
         <img src="https://dropcultura.com.br/wp-content/uploads/2021/08/homecoming.jpg" alt="Imagem de fundo" class="imagem">
@@ -21,7 +80,7 @@
 
     <div class="container">
         <section class="intro">
-            <h2>Detalhes do Filme</h2>
+            <h2 id="Detalhes do Filme">Detalhes do Filme</h2>
         </section>
         <table>
             <thead>
@@ -67,7 +126,7 @@
         </table>
 
         
-        <h2>Personagens</h2>
+        <h2 id="Personagens">Personagens</h2>
         <div class="cards-container">
             <div class="card">
                 <a href="https://en.wikipedia.org/wiki/Peter_Parker_(Marvel_Cinematic_Universe)" target="_blank">
@@ -132,14 +191,14 @@
         </div>
 
         <section class="intro">
-            <h2>🕸 Enredo do filme (Sem Spoiler)</h2>
+            <h2 id="🕸 Enredo do filme (Sem Spoiler)">🕸 Enredo do filme (Sem Spoiler)</h2>
             <p>Homem-Aranha: Voltar ao Lar segue Peter Parker após os eventos de Capitão América: Guerra Civil, onde ele foi recrutado por Tony Stark para combater o Capitão América. Agora, de volta à sua vida como estudante em Nova York, Peter tenta provar seu valor como herói, mas seu desejo de fazer parte dos Vingadores o coloca em uma situação complicada. O filme também foca na ascensão do vilão Adrian Toomes, o Abutre, que começa a causar caos na cidade. Peter tem que equilibrar suas responsabilidades como adolescente e como herói, enquanto enfrenta desafios perigosos e tenta ganhar a confiança de Tony Stark.</p>
 
             </p>
         </section>
+        <h1 id="Trailer do Filme">Trailer do Filme</h1>
         <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column; text-align: center;">
-            <h1>Trailer do Filme</h1>
-                <iframe width="1500" height="800"  
+                <iframe width="1200" height="800"  
                         src="https://www.youtube.com/embed/2x-2iYxgMFU" 
                         title="Trailer do Filme"
                         frameborder="0"
@@ -152,7 +211,7 @@
         
 
         <section class="intro">
-            <h2>🕸️ Curiosidades</h2>
+            <h2 id="🕸️ Curiosidades">🕸️ Curiosidades</h2>
             <ul>
                 <li>Primeiro filme solo do Homem-Aranha dentro do Universo Cinematográfico Marvel (MCU), após a colaboração entre Marvel e Sony.</li>
                 <li>O filme marca a reintegração do Homem-Aranha no MCU, que anteriormente era de propriedade da Sony.</li>
@@ -160,7 +219,7 @@
         </section>
 
         <section class="intro">
-            <h2>📣 Recepção</h2>
+            <h2 id="📣 Recepção">📣 Recepção</h2>
             <p>O filme foi amplamente elogiado por sua abordagem mais jovial e leve, contrastando com os outros filmes de super-heróis mais sérios da época. A crítica destacou a química de Tom Holland com os outros personagens e a direção que fez o filme se sentir como uma comédia adolescente com grandes momentos de ação.</p>
         </section>
 
@@ -188,7 +247,7 @@
         </table>
 
         <section class="intro">
-            <h2>💨 Continuação</h2>
+            <h2 id="💨 Continuação">💨 Continuação</h2>
             <p>A sequência, Homem-Aranha: Longe de Casa (2019), dá continuidade à história de Peter após os eventos de Vingadores: Ultimato, com ele lidando com a perda de Tony Stark e novos desafios, incluindo a ameaça do vilão Mysterio.</p>
         </section>
     </div>

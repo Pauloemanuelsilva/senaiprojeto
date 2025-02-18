@@ -36,6 +36,7 @@
 
 <!--Começo do corpo do Site-->
 <body>    
+    <section>
     
     <!--é usada em HTML para definir uma seção de navegação na página, como menus ou links de navegação. Quando combinada com a classe class, ela permite aplicar estilos específicos a essa seção.-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
@@ -74,6 +75,10 @@
                 <!--é usada para definir um item de lista em HTML. O atributo class permite aplicar estilos ou funcionalidades específicas ao item, de acordo com a classe definida no CSS.-->
 
                 <li class="nav-item">
+
+                    <a class="nav-link" href="#Detalhes da Página">Detalhes</a>
+
+                </li>
                  
                     <!--definir um item de lista em HTML-->
 
@@ -130,6 +135,7 @@
 
     </nav>
     <!--Fechando a navegação-->
+   </section>
 
     <header>
         <!--é usada para definir a seção de cabeçalho de uma página ou de uma parte específica da página. Normalmente, contém elementos como título, navegação ou logotipo.-->
@@ -152,7 +158,7 @@
         <section class="intro">
             <!--A tag <section class="intro"> define uma seção na página com a classe intro, que pode ser usada para aplicar estilos ou funcionalidades específicas a essa área.-->
 
-            <h2>Detalhes da Página</h2>
+            <h2 id="Detalhes da Página">Detalhes da Página</h2>
             <!--Segundo titulo da pagina-->
 
             <p>Aqui estão os últimos lançamentos do Homem-Aranha dos últimos anos.</p>
@@ -164,10 +170,10 @@
         <section class="category">
             <!--A tag `<section class="category">` cria uma seção na página, com a classe `category` para aplicar estilos ou funcionalidades específicas, geralmente para categorias de conteúdo.-->
 
-            <div id="Filmes"></div>
+           
            <!--A tag <div id="Filmes"></div> cria um contêiner vazio com o ID Filmes, que pode ser usado para identificar e aplicar estilos ou funcionalidades específicas a essa seção na página.-->
 
-            <h2>Filmes</h2>
+            <h1 id="Filmes">Filmes</h1>
             <!--Terceiro titulo da pagina-->
 
             <div class="grid">
@@ -266,14 +272,9 @@
 
         </section>
         <!--Fechando a section/agrupamento-->
-
+<h1 id="Músicas">Músicas</h1>
         <section class="category">
             <!--Criando outro card/cartão que permite organizar as informações-->
-
-            <h2>Músicas</h2>
-            <!--Paragrafo-->
-
-            <div id="Músicas"></div>
             <!--Ultilizando Id para conetar as informações dos cartões-->
 
             <div class="grid">
@@ -354,7 +355,7 @@
             <div id="Jogos"></div>
             <!--Ultilizando Id para conetar as informações dos cartões-->
 
-            <h2>Outras Mídias</h2>
+            <h1 id="Jogos">Jogos</h1>
             <!--Paragrafo-->
 
             <div class="grid">

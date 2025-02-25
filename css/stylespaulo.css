@@ -1,13 +1,13 @@
 
 /* Estilo geral */
 body {
-    font-family: Comic Sans MS;
+    font-family:'Bangers', cursive;
     font-weight: 400;
     margin: 0;
     padding: 0;
     background-color: #fff3f3;
        /* Definir a imagem de fundo */
-       background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210913/pngtree-cobweb-on-red-grunge-background-image_889625.jpg');
+       background-image: url('/content/imagen/background.png');
        /* Tornar a imagem de fundo adaptável à tela */
        background-size: cover;
        /* Manter a imagem fixa quando a página rolar */
@@ -23,31 +23,26 @@ body {
 }
  
 header {
-    background-color: #000000;
-    color: rgb(212, 212, 212);
+    background-color: #00000086;
+    color: rgb(241, 241, 241);
     text-align: center;
     padding: 20px;
 }
 
 h1, h2 {
-    font-family: Comic Sans MS;
+    font-family: 'Bangers', serif;
     margin: 10;
     font-weight: 800;
     text-align: center;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 10px;
-    color: #d7d7d7;
-}
+
 
 .intro {
-    font-family: Comic Sans MS;
+    font-family: 'Bangers', cursive;
     text-align: center;
     margin-bottom: 30px;
-    background: #141212;
+    background: #0000007e;
     padding: 15px;
     border-radius: 8px;
 }
@@ -63,9 +58,13 @@ h1, h2 {
     justify-content: center;
 }
 
+p{
+    font-family: 'Bangers', cursive;;
+}
+
 .card {
-    font-family: Comic Sans MS;
-    background: rgb(151, 25, 25);
+    font-family:  'Impact', sans-serif;
+    background: rgb(109, 9, 9);
     border: 1px solid #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(107, 25, 25, 0.1);
@@ -86,15 +85,16 @@ h1, h2 {
 }
 
 .card p {
+    font-family: 'Bangers', cursive;
     font-size: 14px;
-    color: #e4d9d9;
+    color: #ffffff;
     margin: 0 10px 10px;
 }
 
 .form-section {
-    background: #7b1515;
+    background: #7b1515d2;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 400px;
@@ -129,7 +129,7 @@ form select {
 
 form button {
     padding: 10px;
-    background-color: #791a1a;
+    background-color: #791a1a96;
     color: white;
     border: none;
     border-radius: 5px;
@@ -142,7 +142,7 @@ form button:hover {
 }
 
 footer {
-    background-color: #612323;
+    background-color: #612323be;
     color: white;
     text-align: center;
     padding: 10px;
